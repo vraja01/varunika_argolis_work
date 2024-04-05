@@ -1,4 +1,4 @@
-project_name: "looker-explore-assistant"
+project_name: "looker extension"
 
 # # Use local_dependency: To enable referencing of another project
 # # on this instance with include: statements
@@ -19,6 +19,5 @@ application: explore-assistant {
     new_window_external_urls: ["https://developers.generativeai.google/*"]
     local_storage: yes
     external_api_urls: ["https://us-central1-kp-looker-core-argolis.cloudfunctions.net/explore-assistant-endpoint"]
-
   }
 }
