@@ -18,6 +18,6 @@ application: explore-assistant {
     new_window: yes
     new_window_external_urls: ["https://developers.generativeai.google/*"]
     local_storage: yes
-    external_api_urls: ["https://us-central1-kp-looker-core-argolis.cloudfunctions.net/explore-assistant-endpoint"]
+    external_api_urls: ["https://us-west1-varunika-looker-environment.cloudfunctions.net/explore-assistant-endpoint-prod"]
   }
 }
